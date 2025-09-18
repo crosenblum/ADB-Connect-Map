@@ -19,7 +19,7 @@
 
 ### 1. Clone the repository:
 
-```language
+```markdown
 git clone https://github.com/yourusername/adb-device-manager.git
 cd adb-device-manager
 ```markdown
