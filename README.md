@@ -22,13 +22,13 @@
 ```markdown
 git clone https://github.com/yourusername/adb-device-manager.git
 cd adb-device-manager
-```markdown
+` ````
 
 ### 2. Install the required Python dependencies:
 
 ```language
 pip install -r requirements.txt
-```markdown
+` ````
 
 ### 3. Install `scrcpy` and `adb` if not already installed:
 
@@ -40,7 +40,7 @@ pip install -r requirements.txt
 ```language
 brew install scrcpy
 brew install android-platform-tools
-```markdown
+` ````
 
 #### For **Linux**:
 ```language
@@ -48,7 +48,7 @@ sudo apt install scrcpy
 sudo apt install android-tools-adb
 vbnet
 Copy code
-```markdown
+` ````
 
 ## Usage
 
@@ -59,14 +59,14 @@ Run the following command to update the device map:
 
 ```language
 python update_device_map.py
-```markdown
+` ````
 
 ### 2. Start the CLI menu:
 After updating the device map, run the following command to start the device selection menu:
 
 ```language
 python connect_device.py
-```markdown
+` ````
 
 The CLI will present a list of available devices and ask you to select one to connect to. You can exit at any time by selecting option `0`.
 
