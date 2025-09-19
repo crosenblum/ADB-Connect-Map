@@ -19,16 +19,16 @@
 
 ### 1. Clone the repository:
 
-```markdown
+```bash
 git clone https://github.com/yourusername/adb-device-manager.git
 cd adb-device-manager
-` ````
+```
 
 ### 2. Install the required Python dependencies:
 
-```language
+```bash
 pip install -r requirements.txt
-` ````
+```
 
 ### 3. Install `scrcpy` and `adb` if not already installed:
 
@@ -37,18 +37,18 @@ pip install -r requirements.txt
 - Download `scrcpy` from [the official GitHub releases page](https://github.com/Genymobile/scrcpy/releases).
 
 #### For **macOS**:
-```language
+```bash
 brew install scrcpy
 brew install android-platform-tools
-` ````
+```
 
 #### For **Linux**:
-```language
+```bash
 sudo apt install scrcpy
 sudo apt install android-tools-adb
 vbnet
 Copy code
-` ````
+```
 
 ## Usage
 
@@ -57,16 +57,16 @@ Before using the tool, you need to scan your connected devices to populate the `
 
 Run the following command to update the device map:
 
-```language
+```bash
 python update_device_map.py
-` ````
+```
 
 ### 2. Start the CLI menu:
 After updating the device map, run the following command to start the device selection menu:
 
-```language
+```bash
 python connect_device.py
-` ````
+```
 
 The CLI will present a list of available devices and ask you to select one to connect to. You can exit at any time by selecting option `0`.
 
